@@ -27,3 +27,13 @@ MonoBehaviour:
     m_SpecifySize: 0
     m_Name: guitar
     m_Texture: {fileID: 2800000, guid: f9c867346ee0b94418dd916d9f8cf292, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 5699238316745113368
+      m_GuidHigh: 5457401064550109326
+    m_SerializedTextureGuid:
+      m_GuidLow: 18101259570989264477
+      m_GuidHigh: 9239242194447379704
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: piano
+    m_Texture: {fileID: 2800000, guid: dbf46e5d97acfb34f82cd601d3613880, type: 3}
