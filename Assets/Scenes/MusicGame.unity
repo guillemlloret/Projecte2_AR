@@ -624,6 +624,7 @@ GameObject:
   - component: {fileID: 1865793436}
   - component: {fileID: 1865793435}
   - component: {fileID: 1865793437}
+  - component: {fileID: 1865793438}
   m_Layer: 0
   m_Name: XR Origin (Mobile AR)
   m_TagString: Untagged
@@ -679,8 +680,23 @@ MonoBehaviour:
   m_SerializedLibrary: {fileID: 11400000, guid: 5fc4e2286c24c5a4ca3efe242f13579b,
     type: 2}
   m_MaxNumberOfMovingImages: 0
-  m_TrackedImagePrefab: {fileID: 4850570758194708957, guid: 9f92f07940edbc6408efff73ee4ffcef,
-    type: 3}
+  m_TrackedImagePrefab: {fileID: 0}
+--- !u!114 &1865793438
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1865793430}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea9a1a1bd34e76f48ad54e00169c9096, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ArPrefabs:
+  - {fileID: 919132149155446097, guid: 770d22f6dc230814c838fcf681b3ff05, type: 3}
+  - {fileID: 919132149155446097, guid: 4f87e7fdecdab2a4582b274c401acadb, type: 3}
+  ARobjects: []
 --- !u!1 &1943472171
 GameObject:
   m_ObjectHideFlags: 0
