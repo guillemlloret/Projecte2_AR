@@ -37,3 +37,33 @@ MonoBehaviour:
     m_SpecifySize: 0
     m_Name: piano
     m_Texture: {fileID: 2800000, guid: dbf46e5d97acfb34f82cd601d3613880, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 5224948613166860771
+      m_GuidHigh: 3141382594117247877
+    m_SerializedTextureGuid:
+      m_GuidLow: 12777938494947151438
+      m_GuidHigh: 16711533682415612474
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: cello
+    m_Texture: {fileID: 2800000, guid: 591d4e4e5b5cb1543ab25bb8574bebe7, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 5282790153589790901
+      m_GuidHigh: 9937466879135484060
+    m_SerializedTextureGuid:
+      m_GuidLow: 13998590106571782110
+      m_GuidHigh: 16133670633373190075
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: bateria
+    m_Texture: {fileID: 2800000, guid: c28237defb88c244bb475c11f64fe6df, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 5360990579224379626
+      m_GuidHigh: 1710653639123167403
+    m_SerializedTextureGuid:
+      m_GuidLow: 12336560036226848535
+      m_GuidHigh: 17666078062939010810
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: trumpet
+    m_Texture: {fileID: 2800000, guid: b594d71743fdab34faf6cc3b66842af5, type: 3}
