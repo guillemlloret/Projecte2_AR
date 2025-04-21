@@ -9,6 +9,7 @@ public class ImageTracker : MonoBehaviour
     private ARTrackedImageManager trackedImages;
     public GameObject[] ArPrefabs;
 
+
     public List<GameObject> ARobjects = new List<GameObject>();
 
     void Awake()
@@ -28,6 +29,7 @@ public class ImageTracker : MonoBehaviour
 
     private void OnTrackedImagesChanged(ARTrackedImagesChangedEventArgs eventArgs)
     {
+
         // Cuando se detecta una imagen nueva
         foreach (var trackedImage in eventArgs.added)
         {
@@ -35,11 +37,17 @@ public class ImageTracker : MonoBehaviour
             {
                 if (trackedImage.referenceImage.name == arPrefab.name)
                 {
+
+
                     var newPrefab = Instantiate(arPrefab, trackedImage.transform);
                     ARobjects.Add(newPrefab);
+
                 }
             }
         }
+
+
+
 
         // Cuando cambia el estado de una imagen (tracking / no tracking)
         foreach (var trackedImage in eventArgs.updated)
@@ -61,4 +69,6 @@ public class ImageTracker : MonoBehaviour
             }
         }
     }
+        
+    
 }
