@@ -21,49 +21,49 @@ MonoBehaviour:
       m_GuidLow: 5226917137686347827
       m_GuidHigh: 6540046594993828502
     m_SerializedTextureGuid:
-      m_GuidLow: 13349917107975382836
-      m_GuidHigh: 10588680290267421976
+      m_GuidLow: 10530572689504772549
+      m_GuidHigh: 933225719280622618
     m_Size: {x: 0, y: 0}
     m_SpecifySize: 0
     m_Name: guitar
-    m_Texture: {fileID: 2800000, guid: f9c867346ee0b94418dd916d9f8cf292, type: 3}
+    m_Texture: {fileID: 2800000, guid: 575ca1c51c1192241adcfae4d87bf30c, type: 3}
   - m_SerializedGuid:
       m_GuidLow: 5699238316745113368
       m_GuidHigh: 5457401064550109326
     m_SerializedTextureGuid:
-      m_GuidLow: 18101259570989264477
-      m_GuidHigh: 9239242194447379704
+      m_GuidLow: 14074956999085596010
+      m_GuidHigh: 11678166207215035065
     m_Size: {x: 0, y: 0}
     m_SpecifySize: 0
     m_Name: piano
-    m_Texture: {fileID: 2800000, guid: dbf46e5d97acfb34f82cd601d3613880, type: 3}
+    m_Texture: {fileID: 2800000, guid: 7f651d6a4ad1c354b9e205b94a2e11a2, type: 3}
   - m_SerializedGuid:
       m_GuidLow: 5224948613166860771
       m_GuidHigh: 3141382594117247877
     m_SerializedTextureGuid:
-      m_GuidLow: 12777938494947151438
-      m_GuidHigh: 16711533682415612474
+      m_GuidLow: 3302462601153479534
+      m_GuidHigh: 8916343028772998777
     m_Size: {x: 0, y: 0}
     m_SpecifySize: 0
     m_Name: cello
-    m_Texture: {fileID: 2800000, guid: 591d4e4e5b5cb1543ab25bb8574bebe7, type: 3}
+    m_Texture: {fileID: 2800000, guid: 11c4036eb43d2dd4798e8b6dbe36bd7b, type: 3}
   - m_SerializedGuid:
       m_GuidLow: 5282790153589790901
       m_GuidHigh: 9937466879135484060
     m_SerializedTextureGuid:
-      m_GuidLow: 13998590106571782110
-      m_GuidHigh: 16133670633373190075
+      m_GuidLow: 15268546562122091710
+      m_GuidHigh: 18158802742369995465
     m_Size: {x: 0, y: 0}
     m_SpecifySize: 0
     m_Name: bateria
-    m_Texture: {fileID: 2800000, guid: c28237defb88c244bb475c11f64fe6df, type: 3}
+    m_Texture: {fileID: 2800000, guid: b7cc8cbec633d3e4c94a5a7de20601fc, type: 3}
   - m_SerializedGuid:
       m_GuidLow: 5360990579224379626
       m_GuidHigh: 1710653639123167403
     m_SerializedTextureGuid:
-      m_GuidLow: 12336560036226848535
-      m_GuidHigh: 17666078062939010810
+      m_GuidLow: 4167021824395672866
+      m_GuidHigh: 4801705598499154680
     m_Size: {x: 0, y: 0}
     m_SpecifySize: 0
     m_Name: trumpet
-    m_Texture: {fileID: 2800000, guid: b594d71743fdab34faf6cc3b66842af5, type: 3}
+    m_Texture: {fileID: 2800000, guid: 7e677d223c4539d4f8ea8b22cd15a342, type: 3}
