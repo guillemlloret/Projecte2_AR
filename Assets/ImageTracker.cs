@@ -9,14 +9,14 @@ public class ImageTracker : MonoBehaviour
     private ARTrackedImageManager trackedImages;
     public GameObject[] ArPrefabs;
 
-   public List<GameObject> ARobjects = new List<GameObject>();
+    public List<GameObject> ARobjects = new List<GameObject>();
 
-     void Awake()
+    void Awake()
     {
         trackedImages = GetComponent<ARTrackedImageManager>();
     }
 
-     void OnEnable()
+    void OnEnable()
     {
         trackedImages.trackedImagesChanged += OnTrackedImagesChanged;
     }
@@ -28,6 +28,7 @@ public class ImageTracker : MonoBehaviour
 
     private void OnTrackedImagesChanged(ARTrackedImagesChangedEventArgs eventArgs)
     {
+        // Cuando se detecta una imagen nueva
         foreach (var trackedImage in eventArgs.added)
         {
             foreach (var arPrefab in ArPrefabs)
@@ -40,17 +41,24 @@ public class ImageTracker : MonoBehaviour
             }
         }
 
-        foreach ( var trackedImage in eventArgs.updated)
+        // Cuando cambia el estado de una imagen (tracking / no tracking)
+        foreach (var trackedImage in eventArgs.updated)
         {
             foreach (var gameObject in ARobjects)
             {
-                if (gameObject.name == trackedImage.name)
+                if (gameObject.name == trackedImage.referenceImage.name)
                 {
-                    gameObject.SetActive(trackedImage.trackingState == TrackingState.Tracking);
+                    bool isTracking = trackedImage.trackingState == TrackingState.Tracking;
+                    gameObject.SetActive(isTracking);
+
+                    // Aquí añadimos esta parte para comunicarle al instrumento
+                    var instrument = gameObject.GetComponent<InstrumentPlayer>();
+                    if (instrument != null)
+                    {
+                        instrument.SetTracking(isTracking);
+                    }
                 }
             }
         }
     }
-
-    
 }
